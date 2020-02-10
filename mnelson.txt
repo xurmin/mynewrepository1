@@ -1,0 +1,7 @@
+from palindrome_functions import is_palindrome
+
+n = eval(input("Enter a three digit number: "))
+if is_palindrome(n):
+    print(n, "is a palindrome")
+else:
+    print(n, "is not a palindrome")
